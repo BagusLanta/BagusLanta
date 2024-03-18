@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 300px;
+            height: 200px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        #description {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mu Ko Lanta National Park</h1>
+    </header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/Mu Ko Lanta National Park.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/MU KO LANTA NATIONAL PARK(12).png" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/MU KO LANTA NATIONAL PARK(13).png" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/LANTA OLD TOWN.png" alt="Image 4">
+        </div>
+        <!-- Add more gallery items here -->
+    </div>
+    <div id="description">
+        <p>Spanning across lush landscapes, the park boasts dense tropical forests teeming with diverse flora and fauna. Towering palm trees, vibrant orchids, and exotic wildlife create a harmonious symphony of colors and sounds. The air is filled with the sweet fragrance of blooming flowers, and the occasional rustle of leaves hints at the hidden treasures awaiting discovery.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 300px;
+            height: 200px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        #description {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bamboo Beach</h1>
+    </header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/Bakantiang Beach 1.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Bakantiang Beach 2 (2).jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Bakantiang Beach 3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/BAMBOO BEACH.png" alt="Image 4">
+        </div>
+        <!-- Add more gallery items here -->
+    </div>
+    <div id="description">
+        <p>Nestled along the serene coastline of southern Thailand, Bamboo Beach is a tropical paradise that seamlessly blends natural beauty with a touch of exotic charm. Located on a pristine stretch of sandy shore, this idyllic beach destination offers a unique and unforgettable escape.</p>
+    </div>
+</body>
+</html>
