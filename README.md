@@ -1,7 +1,7 @@
 # WELCOME TO KO LANTA
 (Koh Lanta Website for FTU project)
 
-THE KO LANTA BASICS
+THE KO LANTA BASICS.
 Ko Lanta (also spelled Koh Lanta) is one of Thailand’s most beautiful islands, located just off the coast of Krabi. Its long coastline has nearly a dozen beaches, some considered the finest in the country, each one with its charm and atmosphere.
 The tourist season in Ko Lanta runs from October through April with the most visitors here from December to March. An increasing number of people are visiting in the Green Season (May to October) when daily rainfall usually only lasts a few hours.
 
